@@ -1,0 +1,40 @@
+{
+  "name": "music-website-example",
+  "version": "1.0.0",
+  "description": "An example music website for hector.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtaveras824/Music-Website-Example.git"
+  },
+  "keywords": [
+    "Latin",
+    "Music",
+    "Website"
+  ],
+  "author": "Reuben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtaveras824/Music-Website-Example/issues"
+  },
+  "homepage": "https://github.com/rtaveras824/Music-Website-Example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.2",
+    "jquery-file-upload-middleware": "^0.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "mocha": "^3.3.0"
+  }
+}
